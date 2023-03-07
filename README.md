@@ -67,7 +67,7 @@ Terakhir data mahasiswa dan dosen akan ditampilkan
 
 ## Screenshot Program
 * **PHP**
-![Screenshot - ](https://github.com/ArdynRF/LATIHAN2DPBO2023/blob/main/laprak2/screenshot/Screenshot%202023-02-21%20180622.png)
+![Screenshot - ](https://github.com/ArdynRF/LATIHAN4DPBO2023/blob/main/laprak3/screenshot/php_laprak3.png)
 * **Python**
-![Screenshot - ](https://github.com/ArdynRF/LATIHAN2DPBO2023/blob/main/laprak2/screenshot/Screenshot%202023-02-21%20180535.png)
-![Screenshot - ](https://github.com/ArdynRF/LATIHAN2DPBO2023/blob/main/laprak2/screenshot/Screenshot%202023-02-21%20180535.png)
+![Screenshot - ](https://github.com/ArdynRF/LATIHAN4DPBO2023/blob/main/laprak3/screenshot/python_laprak3.png)
+![Screenshot - ](https://github.com/ArdynRF/LATIHAN4DPBO2023/blob/main/laprak3/screenshot/python_laprak3(2).png)
