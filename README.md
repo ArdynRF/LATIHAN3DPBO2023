@@ -28,12 +28,14 @@ Pada class `Human` terdapat tiga atribut:
 * **nama**               -> merupakan nama human, tipe data `string`
 * **nik**                -> merupakan NIK human, bertipe data `int`
 * **jenis_kelamin**      -> merupakan jenis kelamin human, bertipe data `string`
+
 class ini merupakan parents dari class `SivitasAkademik`
 
 Kemudian pada class `SivitasAkademik` merupakan pewarisan dari class `Human`
 pada class 'SivitasAkademik' memiliki dua atribut:
 * **asal_universitas**   -> merupakan asal universitas mahasiswa, tipe data `string`
 * **email**              -> merupakan email mahasiswa, tipe data `string`
+
 Class ini merupakan subclass dari class `Human` karena pada sivitas akademik ini merupakan kumpulan dari manusia.
 
 Lalu pada class `Mahasiswa`, merupakan pewarisan dari class `SivitasAkademik`
@@ -41,6 +43,7 @@ pada class 'Mahasiswa' terdapat tiga atribut:
 * **nim**               -> merupakan nim mahasiswa, tipe data `int`
 * **fakultas**          -> merupakan fakultas mahasiswa, tipe data `string`
 * **prodi**             -> merupakan program studi mahasiswa, tipe data `string`
+
 Class ini merupakan subclass dari class `SivitasAkademik` karena pada sivitas akademik sendiri terdiri dari Mahasiswa salah satunya.
 
 Lalu pada class `Dosen`, merupakan pewarisan dari class `SivitasAkademik`
@@ -49,16 +52,19 @@ pada class 'Mahasiswa' terdapat lima atribut:
 * **prodi**             -> merupakan program studi dosen, tipe data `string`
 * **pend_terakhir**     -> merupakan pendidikan terakhir dari dosen,, tipe data `string`
 * **keahlian**          -> merupakan keahlian dari dosen, tipe data `string`
+
 Class ini merupakan subclass dari class `SivitasAkademik` karena pada sivitas akademik sendiri terdiri dari Dosen salah satunya.
 Tiap atribut memiliki method setter dan getternya masing-masing.
 
 Class `Course`, class ini memiliki composite terhadap class `Mahasiswa` dan `Dosen` pada class ini memiliki satu atribut saja yaitu:
 * **nama_matakuliah**   -> merupakan nama dari mata kuiah
+
 Hubungan composite dengan class `Mahasiswa` dan `Dosen` yakni many to many maka dari itu dalam class ini terdapat array of object dari kedua kelas tersebut.
 
 Terakhir ada class `ProgramStudi`, class ini memiiki composite terhadap course. Class ini memiliki 2 atribut yakni:
-* **kode**
-* **nama_prodi**
+* **kode**              -> merupakan kode dari prodi
+* **nama_prodi**        -> merupakan nama dari prodi
+
 Pada class ini memiliki array of object dari class `course` dikarenakan pada prodi terdapat banyak mata kuliah yg dimiliki.
 
 ##Alur Program
