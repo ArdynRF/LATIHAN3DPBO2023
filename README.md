@@ -4,10 +4,15 @@
 ## Deskripsi Tugas
 Buatlah program berbasis OOP menggunakan bahasa pemrograman C++ dan Python  yang mengimplementasikan konsep inheritance, composition, dan array of object pada kelas-kelas tersebut:
  o Mahasiswa: NIM, nama, jenis_kelamin, fakultas, prodi
+
  o Human: NIK, nama, jenis_kelamin
+
  o SivitasAkademik: asal_universitas, email_edu
+
  o Dosen: NIP, nama, jenis_kelamin, fakultas, prodi, pend_terakhir, keahlian
+
  o Course: nama_matakuliah, 
+
  o Program Studi: nama_prodi, kode, course
 
 ## Desain Program
